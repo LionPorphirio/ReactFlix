@@ -44,58 +44,54 @@
       ]
     },
     {
-      "titulo": "Back End",
+      "titulo": "Music",
       "cor": "#00C86F",
       "link_extra": {
-        "text": "Cursos de Back End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-programacao"
       },
       "videos": [
         {
-          "titulo": "PERCURSO em NÍVEL em ÁRVORE BINÁRIA | Estruturas de Dados #14",
-          "url": "https://www.youtube.com/watch?v=UOK7nS2E9xM"
+          "titulo": "Dream Theater - Distance Over Time",
+          "url": "https://www.youtube.com/watch?v=SqeWgDH09Nk"
         },
         {
-          "titulo": "Coders4Tips - S01E04: GitHub CLI - Uma Nova Experiência no Github!",
-          "url": "https://www.youtube.com/watch?v=6o6-bKOZOEY"
+          "titulo": "Novelists - Delusion",
+          "url": "https://www.youtube.com/watch?v=04CxOpjkR84"
         },
         {
-          "titulo": "Programei 4 robôs que criam vídeos para mim no YouTube",
-          "url": "https://www.youtube.com/watch?v=kjhu1LEmRpY"
+          "titulo": "−真天地開闢集団−ジグザグ「Promise」MV",
+          "url": "https://www.youtube.com/watch?v=IsNup-bXLE8&list=FLX9kcstQsST_GZtJ41jby0w&index=3&t=0s"
         },
         {
-          "titulo": "API: Dicionário do Programador",
-          "url": "https://www.youtube.com/watch?v=vGuqKIRWosk"
+          "titulo": "Gran Turismo 6 Soundtrack - Daiki kasho - EDGE OF THE WORLD",
+          "url": "https://www.youtube.com/watch?v=gWI3ho7911A&list=FLX9kcstQsST_GZtJ41jby0w&index=4&t=0s"
         }, 
         {
-          "titulo": "Usando Git Direito",
-          "url": "https://www.youtube.com/watch?v=6OokP-NE49k"
+          "titulo": "Relaxing Jazz",
+          "url": "https://www.youtube.com/watch?v=neV3EPgvZ3g&t=1776s"
         }
       ]
     },
     {
-      "titulo": "Data Science e Inteligência Artificial",
+      "titulo": "Series e Animes",
       "cor": "#9cd33b",
       "link_extra": {
-        "text": "Cursos de Data Science na Alura",
-        "url": "https://www.alura.com.br/formacao-data-science"
       },
       "videos": [
         {
-          "titulo": "Teste de Turing",
-          "url": "https://www.youtube.com/watch?v=BaPGU4JWa34"
+          "titulo": "Castlevania",
+          "url": "https://www.youtube.com/watch?v=cYNGDUIBUhE"
         },
         {
-          "titulo": "O que é Data Science?",
-          "url": "https://www.youtube.com/watch?v=5b9Z8toVaAU&t=9s"
+          "titulo": "Vikings",
+          "url": "https://www.youtube.com/watch?v=f5av6OqFwz0"
         },
         {
-          "titulo": "Melhor forma de aprender Python",
-          "url": "https://www.youtube.com/watch?v=Gojqw9BQ5qY"
+          "titulo": "RuPaul's Drag Race",
+          "url": "https://www.youtube.com/watch?v=8jf5IU7GmuI"
         },
         {
-          "titulo": "Como ingressar no mercado de Data Science?",
-          "url": "https://www.youtube.com/watch?v=gxyjGmOV540"
+          "titulo": "Cavaleiros do Zodiaco",
+          "url": "https://www.youtube.com/watch?v=WCV74ZtLx6I"
         }
       ]
     },
@@ -108,16 +104,16 @@
           "url": "https://www.youtube.com/watch?v=frD_IiY_A3E"
         },
         {
-          "titulo": "Gattaca",
-          "url": "https://www.youtube.com/watch?v=Dl0tYLbrhhs"
+          "titulo": "Kimi no Namae",
+          "url": "https://www.youtube.com/watch?v=NooIc3dMncc"
         },
         {
-          "titulo": "A Chegada",
-          "url": "https://www.youtube.com/watch?v=rNciXGzYZms"
+          "titulo": "John Wick",
+          "url": "https://www.youtube.com/watch?v=C0BMx-qxsP4"
         },
         {
-          "titulo": "Feitiço do Tempo",
-          "url": "https://www.youtube.com/watch?v=zi8d69P9NvI"
+          "titulo": "Minha Mãe é uma Peça",
+          "url": "https://www.youtube.com/watch?v=HrST-4WLlbA"
         }
       ]
     },
@@ -125,29 +121,27 @@
       "titulo": "Games",
       "cor": "red",
       "link_extra": {
-        "text": "Formação de Jogos na Alura",
-        "url": "https://www.alura.com.br/formacao-jogos-unity"
       },
       "videos": [
         {
-          "titulo": "Final Fantasy 7",
-          "url": "https://www.youtube.com/watch?v=I_ATSCTnUD8"
+          "titulo": "Final Fantasy X/X-2 HD",
+          "url": "https://www.youtube.com/watch?v=xv4uSttPFGI"
         },
         {
-          "titulo": "Assassins Creed Valhalla",
-          "url": "https://www.youtube.com/watch?v=KDfdjB9uL0U"
+          "titulo": "Harvest Moon Back to Nature",
+          "url": "https://www.youtube.com/watch?v=suXJhcAvtTc"
         },
         {
           "titulo": "God of War 4",
           "url": "https://www.youtube.com/watch?v=FyIwEFXOcaE"
         },
         {
-          "titulo": "Resident Evil 8",
-          "url": "https://www.youtube.com/watch?v=JSapXD9vxYA"
+          "titulo": "Brawlhalla",
+          "url": "https://www.youtube.com/watch?v=VRTafsei_k0&t=3s"
         },
         {
-          "titulo": "Pokémon Let's Go Pikachu/Eevee",
-          "url": "https://www.youtube.com/watch?v=L56q_k2ydrs"
+          "titulo": "Mortal Kombat Deception",
+          "url": "https://www.youtube.com/watch?v=BgqFGeOSlz8"
         }
       ]
     },
