@@ -1,7 +1,8 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import PageDefatult from '../../../components/PageDefault'
 import { Link } from 'react-router-dom'
 import FormField from '../../../components/FormField'
+import Button from '../../../components/Button'
 
 function CadastroCategoria() {
   const valoresIniciais = {
@@ -28,6 +29,39 @@ function CadastroCategoria() {
     )
   }
 
+  useEffect(() => {
+    console.log('hello buradjiro')
+    const URL = 'http://localhost:3000/cadastro/categoria'
+    fetch(URL)
+      .then(async (respostaDoServidor) => {
+        const resposta = await respostaDoServidor.json()
+        setCategorias([
+          ...resposta,
+        ])
+      })
+
+    // setTimeout(() => {
+    //   setCategorias([
+    //     ...categorias,
+    //       {
+    //         "id": 1,
+    //         "nome": "Front End",
+    //         "descricao": "uma categoria bacanudassa",
+    //         "cor": "cbd1ff"
+
+    //     },
+
+    //     {
+    //         "id": 2,
+    //         "nome": "Back End",
+    //         "descricao": "uma categoria bacanudassa",
+    //         "cor": "cbd1ff"
+
+    //     },
+    //   ])
+    // }, 4 * 1000)
+  }, [])
+
     return (
       <PageDefatult>
         <h1>Cadastro de Categoria: {values.nome}</h1>
@@ -53,8 +87,7 @@ function CadastroCategoria() {
 
           <FormField 
             label="Descrição"
-            tag="textarea"
-            type="text"
+            type="textarea"
             name="descricao"
             value={values.descricao}
             onChange={handleChange}
@@ -68,15 +101,22 @@ function CadastroCategoria() {
             onChange={handleChange}
           />
 
-          <button>
+          <Button>
             Cadastrar
-          </button>
+          </Button>
         </form>
 
+        {categorias.length === 0 && (
+          <div>
+            {/* Cargando... */}
+            Loading...
+          </div>
+        )}
+
         <ul>
-          {categorias.map((categoria, index) => {
+          {categorias.map((categoria) => {
             return (
-              <li key={`${categoria}${index}`}>
+              <li key={`${categoria.nome}`}>
                 {categoria.nome}
               </li>
             )
